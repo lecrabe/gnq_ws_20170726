@@ -12,7 +12,7 @@ library(ggplot2)
 
 options(stringsAsFactors = F)
 
-rootdir <- "/home/dannunzio/Documents/guinea_equato/workshop_20170726/"
+rootdir <- "/home/dannunzio/gnq_ws_20170726/data/"
 setwd(rootdir)
 start_time <- Sys.time()
 
