@@ -104,14 +104,14 @@ system(sprintf("oft-clump -i %s -o %s -um %s",
 ))
 
 ####### Compute zonal stats for LOSSES
-system(sprintf("oft-zonal_large_list.py -i %s -o %s -um %s",
+system(sprintf("../scripts/oft-zonal_large_list.py -i %s -o %s -um %s",
                paste0(rootdir,"bioko_gfc_clean_nd_clip.tif"),
                paste0(rootdir,"zonal_perdidas_bioko.txt"),
                paste0(rootdir,"bioko_clump_mix.tif")
 ))
 
 ####### Compute zonal stats for CLASSIFICATION
-system(sprintf("oft-zonal_large_list.py -i %s -o %s -um %s",
+system(sprintf("../scripts/oft-zonal_large_list.py -i %s -o %s -um %s",
                paste0(rootdir,"bioko_classificacion_nd.tif"),
                paste0(rootdir,"zonal_classif_bioko.txt"),
                paste0(rootdir,"bioko_clump_mix.tif")
