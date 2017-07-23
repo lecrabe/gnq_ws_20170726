@@ -29,7 +29,7 @@ library(dplyr)
 setwd("~/gnq_ws_20170726")
 system("wget https://www.dropbox.com/s/6twsqbbar0auoza/data.zip?dl=0")
 system("unzip workshop_KHM_2017.zip?dl=0" )
-
+system("chmod 755  ~/gnq_ws_20170726/scripts/oft-zonal_large_list.py")
 
 ############### SET WORKING ENVIRONMENT
 rootdir <- "~/gnq_ws_20170726/data/"
