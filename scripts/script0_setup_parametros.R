@@ -32,7 +32,7 @@ system("unzip workshop_KHM_2017.zip?dl=0" )
 
 
 ############### SET WORKING ENVIRONMENT
-rootdir <- "~/khm_ws_20170515/data/"
+rootdir <- "~/gnq_ws_20170726/data/"
 
 
 setwd(rootdir)
