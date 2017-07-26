@@ -32,7 +32,5 @@ system("unzip workshop_KHM_2017.zip?dl=0" )
 system("chmod 755  ~/gnq_ws_20170726/scripts/oft-zonal_large_list.py")
 
 ############### SET WORKING ENVIRONMENT
-rootdir <- "~/gnq_ws_20170726/data/"
-
-
-setwd(rootdir)
+setwd("~/gnq_ws_20170726/data/")
+rootdir <- paste0(getwd(),"/")
